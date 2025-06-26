@@ -51,4 +51,3 @@
     <a href="ProductoServlet?action=listar">Cancelar</a>
 </body>
 </html>
-

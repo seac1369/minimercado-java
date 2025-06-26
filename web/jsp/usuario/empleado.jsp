@@ -10,5 +10,5 @@
 %>
 <h2>Bienvenido Empleado: <%= usuario.getUsuario() %></h2>
 <p>Solo tienes acceso al módulo de facturación</p>
-<a href="logout.jsp">Cerrar sesión</a>
+<a href="${pageContext.request.contextPath}/LogoutServlet">Cerrar sesión</a>
 

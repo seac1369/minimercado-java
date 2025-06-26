@@ -10,4 +10,5 @@
 %>
 <h2>Bienvenido Administrador: <%= usuario.getUsuario() %></h2>
 <p>Acceso completo al sistema</p>
-<a href="logout.jsp">Cerrar sesión</a>
+<a href="${pageContext.request.contextPath}/LogoutServlet">Cerrar sesión</a>
+

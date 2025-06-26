@@ -26,5 +26,10 @@
     <%
         }
     %>
+    
+    <% if ("1".equals(request.getParameter("logout"))) { %>
+    <p style="color:green;">Sesión cerrada correctamente.</p>
+<% } %>
+
 </body>
 </html>
